@@ -1,0 +1,77 @@
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-dark black" [containerInside]="false">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand>
+      <a class="navbar-brand t1" href="#">Exam Application Form</a>
+    </mdb-navbar-brand>
+  
+    <!-- Collapsible content -->
+    <links>
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto ">
+        <li class="nav-item">
+          <a routerLink='/' class="nav-link waves-light t2" mdbWavesEffect> Home </a>
+        </li>
+        <li class="nav-item">
+          <a routerLink='/student' class="nav-link waves-light t2" mdbWavesEffect> Student</a>
+        </li>
+        <li class="nav-item active">
+          <a routerLink='/lecturer'  class="nav-link waves-light t2" mdbWavesEffect> Lecturer 
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+            <a routerLink='/admin' class="nav-link waves-light t2" mdbWavesEffect> Admin</a>
+        </li>
+      </ul>
+      <!-- Links -->
+    </links>
+    <!-- Collapsible content -->
+  
+  </mdb-navbar>
+  <!--/.Navbar-->
+
+  <div class="container-fluid">
+   
+   <div class="row r1" >
+    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 c1"><h3 class="s">Lecturers</h3></div>
+    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 c2">
+        <!-- Default form login -->
+      <form class="text-center border border-light p-5">
+
+        <p class="h4 mb-4">Sign in/Login</p>
+  
+        <!-- Email -->
+        <h6 class="h">Registration Number:</h6>
+        <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Enter your Registration Number">
+  
+        <!-- Password -->
+        <h6 class="h">Password:</h6>
+        <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Enter your Password">
+  
+      <div class="d-flex justify-content-around">
+      <div>
+        <!-- Remember me -->
+        <mdb-checkbox [default]="true">Remember me</mdb-checkbox>
+      </div>
+      <div>
+        <!-- Forgot password -->
+        <a href="">Forgot password?</a>
+      </div>
+      </div>
+  
+     <!-- Sign in button -->
+      <button mdbBtn color="info" block="true" class="my-4" type="submit">Sign in</button>
+      </form>
+         <!-- Default form login -->
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 c3"></div>
+   </div>
+
+   <div class="row r2" >
+     <br>
+  </div>
+   
+  </div>

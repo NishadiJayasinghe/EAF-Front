@@ -1,0 +1,27 @@
+
+.t1{
+    font-style: italic;
+    color: aqua;
+}
+.t2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+}    
+.c1{
+    background-color: rgb(216, 203, 216);
+}
+.c3{
+    background-color: rgb(216, 203, 216);
+}
+.r2{
+    background-color: rgb(8, 1, 4); 
+    height: 31px;  
+}
+.h{
+    text-align: left;
+}
+.s{
+    padding-top: 150px;
+    text-align: center;
+    color: maroon; 
+}

@@ -1,0 +1,45 @@
+.col1{
+    text-align:left;
+    color: white;
+}
+.col2{
+    text-align:center;
+    color: blue;
+    font: caption;
+}
+.col3{
+    text-align:center;
+}
+.btn1{
+   width: 150px;
+   height: 50px;
+   
+}
+.btn2{
+    width: 150px;
+   height: 50px;
+}
+.btn3{
+    width: 150px;
+   height: 50px;
+}
+.b1{
+    background-color: rgb(73, 2, 2);
+    color: aliceblue;
+}
+.b2{
+    background-color: rgb(216, 203, 216);
+}
+.b3{
+    background-color: rgb(216, 203, 216);
+    padding-top: 20px;
+}
+.b4{
+    background-color: rgb(216, 203, 216);
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.b5{
+    height: 40.5px;
+    background-color:rgb(73, 2, 2); 
+}
