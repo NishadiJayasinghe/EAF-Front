@@ -1,16 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import {RouterModule} from '@angular/router';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { StudentsLoginComponent } from './students-login/students-login.component';
-import {RouterModule} from '@angular/router';
 import { LecturersLoginComponent } from './lecturers-login/lecturers-login.component';
 import { AdminsLoginComponent } from './admins-login/admins-login.component';
+import { AdminComponent } from './admin/admin.component';
 import {  NO_ERRORS_SCHEMA } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { WavesModule, ButtonsModule } from 'angular-bootstrap-md';
 import { NavbarModule} from 'angular-bootstrap-md';
+import { UserManagementComponent } from './user-management/user-management.component';
+
+
 
 
 @NgModule({
@@ -19,7 +23,9 @@ import { NavbarModule} from 'angular-bootstrap-md';
     IndexComponent,
     StudentsLoginComponent,
     LecturersLoginComponent,
-    AdminsLoginComponent
+    AdminsLoginComponent,
+    AdminComponent,
+    UserManagementComponent
   
   ],
   imports: [
@@ -43,6 +49,14 @@ import { NavbarModule} from 'angular-bootstrap-md';
     {
       path: 'admin',
       component:AdminsLoginComponent
+    },
+    {
+      path: 'admin-home',
+      component:AdminComponent
+    },
+    {
+      path: 'user-management',
+      component:UserManagementComponent
     }
   ])
   ],
