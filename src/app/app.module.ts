@@ -13,6 +13,9 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { WavesModule, ButtonsModule } from 'angular-bootstrap-md';
 import { NavbarModule} from 'angular-bootstrap-md';
 import { UserManagementComponent } from './user-management/user-management.component';
+import { StudentManagementComponent } from './student-management/student-management.component';
+import { LecturerManagementComponent } from './lecturer-management/lecturer-management.component';
+import { AdminstartorManagementComponent } from './adminstartor-management/adminstartor-management.component';
 
 
 
@@ -25,7 +28,10 @@ import { UserManagementComponent } from './user-management/user-management.compo
     LecturersLoginComponent,
     AdminsLoginComponent,
     AdminComponent,
-    UserManagementComponent
+    UserManagementComponent,
+    StudentManagementComponent,
+    LecturerManagementComponent,
+    AdminstartorManagementComponent
   
   ],
   imports: [
@@ -57,7 +63,20 @@ import { UserManagementComponent } from './user-management/user-management.compo
     {
       path: 'user-management',
       component:UserManagementComponent
+    },
+    {
+      path: 'student-management',
+      component:StudentManagementComponent
+    },
+    {
+      path: 'lecturer-management',
+      component: LecturerManagementComponent
+    },
+    {
+      path: 'administrator-management',
+      component: AdminstartorManagementComponent
     }
+
   ])
   ],
   schemas: [ NO_ERRORS_SCHEMA ],
