@@ -16,6 +16,7 @@ import { UserManagementComponent } from './user-management/user-management.compo
 import { StudentManagementComponent } from './student-management/student-management.component';
 import { LecturerManagementComponent } from './lecturer-management/lecturer-management.component';
 import { AdminstartorManagementComponent } from './adminstartor-management/adminstartor-management.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -31,7 +32,8 @@ import { AdminstartorManagementComponent } from './adminstartor-management/admin
     UserManagementComponent,
     StudentManagementComponent,
     LecturerManagementComponent,
-    AdminstartorManagementComponent
+    AdminstartorManagementComponent,
+    HomeComponent
   
   ],
   imports: [
@@ -75,6 +77,10 @@ import { AdminstartorManagementComponent } from './adminstartor-management/admin
     {
       path: 'administrator-management',
       component: AdminstartorManagementComponent
+    },
+    {
+      path:'home',
+      component: HomeComponent
     }
 
   ])

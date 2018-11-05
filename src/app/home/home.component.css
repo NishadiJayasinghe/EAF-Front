@@ -1,0 +1,35 @@
+.view {
+    background: url("https://blog.gogetspace.com/wp-content/uploads/2011/12/online-marketing.jpg")no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    z-index: 1;
+}
+.c1{
+    color: seashell;
+}
+.c2{
+    background-color: aliceblue;
+    text-align: center;
+  
+}
+.h{
+    color: black;
+    font-style: normal;
+}
+.g{
+    color: blue;
+}
+.d{
+    padding-top: 50px;
+    text-align: left;
+}
+.y{
+    padding-top: 150px;
+    text-align: center;
+}
+.l{
+    color: blue;
+}
