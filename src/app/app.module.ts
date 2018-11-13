@@ -16,9 +16,6 @@ import { UserManagementComponent } from './user-management/user-management.compo
 import { StudentManagementComponent } from './student-management/student-management.component';
 import { LecturerManagementComponent } from './lecturer-management/lecturer-management.component';
 import { AdminstartorManagementComponent } from './adminstartor-management/adminstartor-management.component';
-import { HomeComponent } from './home/home.component';
-
-
 
 
 @NgModule({
@@ -33,7 +30,6 @@ import { HomeComponent } from './home/home.component';
     StudentManagementComponent,
     LecturerManagementComponent,
     AdminstartorManagementComponent,
-    HomeComponent
   
   ],
   imports: [
@@ -77,10 +73,6 @@ import { HomeComponent } from './home/home.component';
     {
       path: 'administrator-management',
       component: AdminstartorManagementComponent
-    },
-    {
-      path:'home',
-      component: HomeComponent
     }
 
   ])
